@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# Noos
+Noos é proposta de projeto de sistema operacional baseada em linux usando tecnologia web 
 
-You can use the [editor on GitHub](https://github.com/Slender1808/Noos/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Objetivos
+Objetivo seria criar um sistema operacional de codigo livre e de fácil usabilidade com interface com janelas, fosse focada no navegador assim como Chrome OS , porem também possibilitado a instalação de aplicações de terceiros.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Tecnologias
 
-### Markdown
+* Electron
+* Node
+* Vue
+ * [vue-resizable](https://markdownlivepreview.com/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Gerenciador de Janelas 
+A estrategia encontrada para gerenciamento das janelas seria atravez do projeto [vue-resizable](https://markdownlivepreview.com/) com as aplicações sendo carregada como componentes do Vue JS ou Webview do Eletron JS
 
-```markdown
-Syntax highlighted code block
+## Aplicações base
+No GitHub existe repositório com nome [electron-sample-apps](https://github.com/hokein/electron-sample-apps) com exemplos de plicações simples mais muito útil para sistema base.
 
-# Header 1
-## Header 2
-### Header 3
+## Aplicações de Terceiros
+Teria que ser devolvido uma build específico para aplicações atuais em Electron js.
+Como o Sistema é uma renderização do navegador as aplicações teriam duas possibilidades, roda como componentes ou como webview.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Slender1808/Noos/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
