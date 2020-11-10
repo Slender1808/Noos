@@ -8,7 +8,7 @@ Objetivo seria criar um sistema operacional de codigo livre e de fácil usabilid
 O gerenciador do sistema seria feito em Node JS com biblioteca [shelljs](https://github.com/shelljs/shelljs) para execução dos comandos
 
 ## Gerenciador de Janelas 
-A estrategia encontrada para gerenciamento das janelas seria atravez do projeto [vue-resizable](https://markdownlivepreview.com/) com as aplicações sendo carregada como componentes do Vue JS ou Webview do Eletron JS
+A estrategia encontrada para gerenciamento das janelas seria atravez do projeto [vue-resizable](https://github.com/nikitasnv/vue-resizable) com as aplicações sendo carregada como componentes do Vue JS ou Webview do Eletron JS
 
 ## Aplicações base
 No GitHub existe repositório com nome [electron-sample-apps](https://github.com/hokein/electron-sample-apps) com exemplos de plicações simples mais muito útil para sistema base.
