@@ -22,8 +22,8 @@ Como o Sistema é uma renderização do navegador as aplicações teriam duas po
 # Link
 ### [Server Dev](http://code-noos.brazilsouth.azurecontainer.io)
 ### Portas
- * 80: 
- * 81:
- * 8001: Vue UI
- * 8080: Front Dev
- * 8443: VS Code
+ * 80:TCP 
+ * 81:UDP
+ * 8000:TCP Vue UI
+ * 8080:TCP Front Dev
+ * 8443:TCP VS Code
