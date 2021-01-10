@@ -16,3 +16,4 @@ No GitHub existe repositório com nome [electron-sample-apps](https://github.com
 ## Aplicações de Terceiros
 Teria que ser devolvido uma build específico para aplicações atuais em Electron js.
 Como o Sistema é uma renderização do navegador as aplicações teriam duas possibilidades, roda como componentes ou como webview.
+Para os programas tradicionais de linux uma solução seria transmitir a janela do programa via vnc para localhost para ser aberto no navegador.
